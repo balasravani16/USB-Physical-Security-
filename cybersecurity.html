@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            position: relative;
+            height: 150px;
+            background: linear-gradient(to right, #283593, #1e88e5);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            max-height: 130px;
+            width: auto;
+            border-radius: 5px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+        }
+        h2 {
+            font-size: 28px;
+            color: #283593;
+            margin-top: 40px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #283593;
+            color: white;
+        }
+        .button {
+            margin-top: 20px;
+            text-align: center;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            border: none;
+            color: white;
+            background-color: #283593;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background-color: #3949ab;
+            transform: scale(1.05);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #e8eaf6;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        ul li ul {
+            margin-top: 10px;
+        }
+        ul li ul li {
+            background-color: #c5cae9;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function showDisableMessage() {
+            alert("Disable USB Ports: Initiates the process to disable all USB ports on the device. Users are required to verify their admin credentials and complete OTP verification to proceed. This feature is crucial for preventing unauthorized data transfer and potential malware infections through USB devices.");
+        }
+        function showEnableMessage() {
+            alert("Enable USB Ports: Allows users to enable USB ports temporarily. After successful admin and OTP verification, users can specify a duration for how long the USB ports will remain enabled. This feature is useful for controlled access, such as during data transfers or peripheral installations.");
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Project Information</h1>
+        <img src="images.png" alt="Project Logo">
+    </div>
+
+    <p>This project was developed by Reshma Begum, K.Bala Sravani, Macha.Uma, I. Sai Jaya Keerthana, and Poojitha Amaravadhi as part of a Cyber Security internship. This project is designed to secure organizations in the real world from cyber frauds performed by hackers.</p>
+
+    <h2>Project Details</h2>
+    <table>
+        <tr>
+            <th>Project Details</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Project Name</td>
+            <td>USB Physical Security</td>
+        </tr>
+        <tr>
+            <td>Project Description</td>
+            <td>Implementing Physical Security Policy on USB Ports in Organization for Physical Security</td>
+        </tr>
+        <tr>
+            <td>Project Start Date</td>
+            <td>11-JUNE-2024</td>
+        </tr>
+        <tr>
+            <td>Project End Date</td>
+            <td>3-JULY-2024</td>
+        </tr>
+        <tr>
+            <td>Project Status</td>
+            <td>Completed</td>
+        </tr>
+    </table>
+
+    <h2>Developer Details</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Employee ID</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Reshma Begum</td>
+            <td>ST#IS#6388</td>
+            <td>Reshmabegum3804@gmail.com</td>
+        </tr>
+        <tr>
+            <td>K.Bala Sravani</td>
+            <td>ST#IS#6389</td>
+            <td>balasravanikasoju@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Macha.Uma</td>
+            <td>ST#IS#6391</td>
+            <td>machauma5@gmail.com</td>
+        </tr>
+        <tr>
+            <td>I. Sai Jaya Keerthana</td>
+            <td>ST#IS#6390</td>
+            <td>kiirtiis@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Poojitha Amaravadhi</td>
+            <td>ST#IS#6387</td>
+            <td>amaravadhipoojitha@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Application Features</h2>
+    <p>Our USB Physical Security application is designed to provide robust control over USB ports on your device. In today's digital landscape, unauthorized access through USB ports can lead to serious security breaches. Our application ensures that only authorized personnel can enable or disable USB ports, adding an essential layer of security to your system.</p>
+    <p>In an era where data security is paramount, our USB Physical Security application addresses a critical need for controlled USB access. Organizations can prevent data leaks, protect sensitive information, and maintain the integrity of their systems by ensuring that USB ports are not misused. The application is particularly valuable for businesses, educational institutions, and government agencies that handle confidential data.</p>
+    <p>Our application combines robust security measures with user-friendly features to provide an effective solution for managing USB port access. By incorporating admin and OTP verification, timed access, and clear user feedback, we offer a comprehensive tool to safeguard your device from unauthorized USB usage.</p>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Enhanced Security:</strong>
+            <ul>
+                <li><strong>Admin Verification:</strong> The application requires administrative credentials to perform any actions, ensuring that only authorized users can enable or disable USB ports.</li>
+                <li><strong>OTP Verification:</strong> After verifying admin credentials, a One-Time Password (OTP) is sent to the registered email. This two-step verification process enhances security, preventing unauthorized access.</li>
+            </ul>
+        </li>
+        <li><strong>Timed Access:</strong>
+            <ul>
+                <li><strong>Temporary Enable:</strong> When enabling USB ports, users can specify a duration for how long the ports will remain active. This feature ensures that USB ports are not left enabled indefinitely, reducing the risk of security breaches.</li>
+                <li><strong>Automatic Disable:</strong> Once the specified duration expires, the USB ports are automatically disabled, ensuring continuous protection.</li>
+            </ul>
+        </li>
+        <li><strong>User-Friendly Interface:</strong>
+            <ul>
+                <li><strong>Intuitive Design:</strong> The application features a simple and intuitive interface, making it easy for users to navigate and manage USB port security.</li>
+                <li><strong>Clear Feedback:</strong> Real-time feedback through success and error messages keeps users informed about the status of their actions.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="button">
+        <button onclick="showDisableMessage()">Disable USB Ports</button>
+        <button onclick="showEnableMessage()">Enable USB Ports</button>
+    </div>
+</body>
+</html>
